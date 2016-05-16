@@ -21,5 +21,6 @@ public class CORSResponseFilter implements ContainerResponseFilter {
                 "Content-Type, " +
                 "X-Codingpedia, " +
                 "Location");
+        headers.add("Access-Control-Expose-Headers","Location");
     }
 }
